@@ -18,9 +18,7 @@
     background-color: #00000076;
 
 }
-</style>
 
-<style>
 #vinyl-gallery * {
     all: unset;
   }
@@ -306,9 +304,7 @@ footer{
     margin-top: 10px;
 }
 /* .details-table td:first-child{display:none;}  this hides the movies,books,heroes titles*/
-</style>
 
-<style>
 /* Scrollbar styles */
 ::-webkit-scrollbar {
     width: 5px;
@@ -325,5 +321,5 @@ footer{
 ::-webkit-scrollbar-thumb:hover {
     background: black;  
 }
-</style>
+
 
