@@ -1,41 +1,68 @@
 @charset "utf-8";
 
 *{
-    padding: 0;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+
+:root{
+
+  --fonte-principal: 'Exo 2', sans-serif;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(5, 75, 103), rgb(0, 162, 255));
 }
 
-h1{
-    font-size: 3em;
-    padding: 90px 0px 0px 30px;
+.formulario{
+    background-color: rgba(30, 137, 141, 0.612);
+    height: 350px;
+    width: 400px;
+    margin: auto;
+    margin-top: 180px;
+    padding: 10px;
+    border-radius: 15px;
 }
 
-header h1{
+fieldset{
+    border: none;
+}
+
+legend{
     text-align: center;
+    font-family: var(--fonte-principal);
 }
 
-.parallax{
-    background: url(/img/00034.jpg) no-repeat center center;
-    background-size: cover;
-    height: 300px;
-    background-attachment: fixed;
+input{
+    height: 29px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(30, 152, 156, 0.357);
 }
 
-.conteudo{
-    margin: 50px 0px 50px 0px;
-    text-align: justify;
+input:hover{
+    cursor: pointer;
+    border: none;
 }
 
-.conteudo h1{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.307);
+label{
 }
 
-footer{
-    text-align: center;
-    font: bolder;
+div{
+    padding: 10px;
 }
 
+
+button{
+    margin-top: 60px;
+    margin-left: 270px;
+    height: 40px;
+    width: 85px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(13, 72, 74);
+}
