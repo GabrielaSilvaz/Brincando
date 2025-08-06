@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+section{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 200px; 
+    border-radius: 25px;
+}
+
+input{
+    height: 20px;
+    width: 200px;
+    margin-left: 20px;   
+}
+
+.input1{
+margin-top: 70px;
+}
+
+button{
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+}
+.fim{
+    background-color: pink;
+    height: 90px;
+    width: 100px;
+}
