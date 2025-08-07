@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(https://i.pinimg.com/736x/8e/86/65/8e8665e848755ba408f0aeb011c954b9.jpg);
+}
 section{
     height: 250px;
     width: 250px;
@@ -12,7 +19,9 @@ section{
 input{
     height: 20px;
     width: 200px;
-    margin-left: 20px;   
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px; 
 }
 
 .input1{
@@ -20,16 +29,26 @@ margin-top: 70px;
 }
 
 button{
-    background-color: red;
+    background-color: rgb(3, 3, 199);
     margin-left: 20px;
     margin-top: 50px;
     height: 30px;
     width: 100px;
     border-radius: 10px;
     border: none;
+    color: white;
 }
 .fim{
-    background-color: pink;
-    height: 90px;
-    width: 100px;
+    background-color: blue;
+    height: 50px;
+    width: 120px;
+    font-size: bolder;
+    margin-top: -225px;
+    margin-left: 260px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fim > h1 {
+    color: white;
 }
