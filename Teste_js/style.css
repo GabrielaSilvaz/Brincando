@@ -6,10 +6,12 @@
 
 body{
     background: url(https://i.pinimg.com/736x/8e/86/65/8e8665e848755ba408f0aeb011c954b9.jpg);
+    min-height: 100vh;
 }
 section{
+    width: 90%;
+    max-width: 350px;
     height: 250px;
-    width: 250px;
     background-color: blue;
     margin: auto;
     margin-top: 200px; 
@@ -18,37 +20,47 @@ section{
 
 input{
     height: 20px;
-    width: 200px;
-    margin-left: 20px;
+    width: 150px;
+    margin-left: 10px;
     border: none;
     border-radius: 5px; 
 }
 
 .input1{
-margin-top: 70px;
+margin-top: 20px;
 }
 
 button{
     background-color: rgb(3, 3, 199);
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
     height: 30px;
-    width: 100px;
+    width: 90%;
     border-radius: 10px;
     border: none;
     color: white;
 }
+
+button:hover {
+  background-color: rgb(2, 2, 150);
+}
+
 .fim{
     background-color: blue;
     height: 50px;
     width: 120px;
     font-size: bolder;
-    margin-top: -225px;
-    margin-left: 260px;
+    margin-top: -140px;
+    margin-left: 180px;
     border-radius: 10px;
     text-align: center;
 }
 
 .fim > h1 {
     color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
 }
